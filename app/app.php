@@ -32,7 +32,7 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
         'host'     => 'localhost',
         'dbname'   => 'silex_blog_a10',
         'port'     => 3306,
-        'username' => 'root',
+        'user' => 'root',
         'password' => '',
         'charset'   => 'utf8mb4',
     ),
